@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Venture</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <script src="main.js"></script> -->
+    <style>
+        body {
+            margin: 0%;
+        }
+    </style>
+</head>
+
+<body>
+    <input type="input" id="placeSearch">
+    <button onclick="showPOIForPlace(document.getElementById('placeSearch').value)">Go</button>
+    <div id='map' style='position: absolute; top: 26px; right: 0; bottom: 0; left: 0;'></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <!-- Next 2 scripts tags are for GOOGLE MAPS -->
+    <script type="text/javascript"
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAMYFsSDzOmytjewe9NhOLmvH1KxpusSWg&libraries=places"></script>
+    <script>
+        let GOOGLE_MAPS_KEY = "AIzaSyAMYFsSDzOmytjewe9NhOLmvH1KxpusSWg";
+        let GOOGLE = google.maps;
+
+        // var seattle = new GOOGLE.LatLng(47.608013, -122.335167);
+        let center = new GOOGLE.LatLng(39.809734, -98.555620);
+        var infowindow = new GOOGLE.InfoWindow();
+
+        map = new GOOGLE.Map(document.getElementById('map'), {
+            center: center,
+            zoom: 5
+        });
+        var service = new GOOGLE.places.PlacesService(map);
+
+        function showPOIForPlace(placeName) {
+            console.log(placeName);
+            $.get(`https://maps.googleapis.com/maps/api/geocode/json?address=${placeName}&key=AIzaSyAMYFsSDzOmytjewe9NhOLmvH1KxpusSWg`,
+                function (data, status) {
+                    console.log(data);
+                    var requestForTextSearch = {
+                        location: data.results[0].geometry.location,
+                        radius: '500',
+                        query: 'things to do'
+                    };
+                    // Next line cost money
+                    service.textSearch(requestForTextSearch, callback);
+
+                    requestForTextSearch = {
+                        location: data.results[0].geometry.location,
+                        radius: '500',
+                        query: 'restaurant'
+                    };
+                    // Next line cost money
+                    service.textSearch(requestForTextSearch, callback);
+                });
+        }
+
+        function callback(results, status) {
+            if (status == GOOGLE.places.PlacesServiceStatus.OK) {
+                for (var i = 0; i < results.length; i++) {
+                    var place = results[i];
+                    createMarker(results[i]);
+                }
+            }
+        }
+
+        function createMarker(place) {
+            var marker = new GOOGLE.Marker({
+                map: map,
+                position: place.geometry.location
+            });
+
+            GOOGLE.event.addListener(marker, 'click', function () {
+                infowindow.setContent("<h1>" + place.name + "</h1>" +
+                    "<p> " + place.formatted_address + "</p>");
+                infowindow.open(map, this);
+            });
+        }
+    </script>
+
+</body>
+
+</html>

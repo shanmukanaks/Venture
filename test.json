@@ -1,0 +1,594 @@
+{
+    "type": "FeatureCollection",
+    "query": [
+        "new",
+        "york"
+    ],
+    "features": [
+        {
+            "id": "poi.1451698999267",
+            "type": "Feature",
+            "place_type": [
+                "poi"
+            ],
+            "relevance": 1,
+            "properties": {
+                "landmark": true,
+                "wikidata": "Q8685",
+                "category": "airport",
+                "address": "JFK Expy",
+                "maki": "airport"
+            },
+            "text": "John F. Kennedy International Airport (JFK)",
+            "place_name": "John F. Kennedy International Airport (JFK), JFK Expy, New York, New York 11430, United States",
+            "matching_text": "New York International Airport",
+            "matching_place_name": "New York International Airport, JFK Expy, New York, New York 11430, United States",
+            "center": [
+                -73.78461,
+                40.645123
+            ],
+            "geometry": {
+                "coordinates": [
+                    -73.78461,
+                    40.645123
+                ],
+                "type": "Point"
+            },
+            "context": [
+                {
+                    "id": "neighborhood.2104096",
+                    "text": "John F. Kennedy International Airport"
+                },
+                {
+                    "id": "locality.6306827455006740",
+                    "wikidata": "Q18424",
+                    "text": "Queens"
+                },
+                {
+                    "id": "postcode.13535560632567520",
+                    "text": "11430"
+                },
+                {
+                    "id": "place.15278078705964500",
+                    "wikidata": "Q60",
+                    "text": "New York"
+                },
+                {
+                    "id": "region.14044236392855570",
+                    "short_code": "US-NY",
+                    "wikidata": "Q1384",
+                    "text": "New York"
+                },
+                {
+                    "id": "country.9053006287256050",
+                    "short_code": "us",
+                    "wikidata": "Q30",
+                    "text": "United States"
+                }
+            ]
+        },
+        {
+            "id": "poi.601295421936",
+            "type": "Feature",
+            "place_type": [
+                "poi"
+            ],
+            "relevance": 1,
+            "properties": {
+                "landmark": true,
+                "wikidata": "Q125006",
+                "category": "historic site, historic",
+                "address": "Brooklyn Bridge"
+            },
+            "text": "Brooklyn Bridge",
+            "place_name": "Brooklyn Bridge, Brooklyn Bridge, New York, New York, United States",
+            "matching_text": "New York and Brooklyn Bridge",
+            "matching_place_name": "New York and Brooklyn Bridge, Brooklyn Bridge, New York, New York, United States",
+            "center": [
+                -73.996704,
+                40.705967
+            ],
+            "geometry": {
+                "coordinates": [
+                    -73.996704,
+                    40.705967
+                ],
+                "type": "Point"
+            },
+            "context": [
+                {
+                    "id": "locality.12696928000137850",
+                    "wikidata": "Q11299",
+                    "text": "Manhattan"
+                },
+                {
+                    "id": "place.15278078705964500",
+                    "wikidata": "Q60",
+                    "text": "New York"
+                },
+                {
+                    "id": "region.14044236392855570",
+                    "short_code": "US-NY",
+                    "wikidata": "Q1384",
+                    "text": "New York"
+                },
+                {
+                    "id": "country.9053006287256050",
+                    "short_code": "us",
+                    "wikidata": "Q30",
+                    "text": "United States"
+                }
+            ]
+        },
+        {
+            "id": "poi.884763316789",
+            "type": "Feature",
+            "place_type": [
+                "poi"
+            ],
+            "relevance": 1,
+            "properties": {
+                "landmark": true,
+                "wikidata": "Q816268",
+                "category": "historic site, historic",
+                "address": "79th Street"
+            },
+            "text": "Belvedere Castle",
+            "place_name": "Belvedere Castle, 79th Street, New York, New York 10024, United States",
+            "matching_text": "New York Meteorological Observatory",
+            "matching_place_name": "New York Meteorological Observatory, 79th Street, New York, New York 10024, United States",
+            "center": [
+                -73.96903,
+                40.779358
+            ],
+            "geometry": {
+                "coordinates": [
+                    -73.96903,
+                    40.779358
+                ],
+                "type": "Point"
+            },
+            "context": [
+                {
+                    "id": "neighborhood.34134",
+                    "text": "Central Park"
+                },
+                {
+                    "id": "locality.12696928000137850",
+                    "wikidata": "Q11299",
+                    "text": "Manhattan"
+                },
+                {
+                    "id": "postcode.17160650268603380",
+                    "text": "10024"
+                },
+                {
+                    "id": "place.15278078705964500",
+                    "wikidata": "Q60",
+                    "text": "New York"
+                },
+                {
+                    "id": "region.14044236392855570",
+                    "short_code": "US-NY",
+                    "wikidata": "Q1384",
+                    "text": "New York"
+                },
+                {
+                    "id": "country.9053006287256050",
+                    "short_code": "us",
+                    "wikidata": "Q30",
+                    "text": "United States"
+                }
+            ]
+        },
+        {
+            "id": "poi.1151051275851",
+            "type": "Feature",
+            "place_type": [
+                "poi"
+            ],
+            "relevance": 1,
+            "properties": {
+                "landmark": true,
+                "wikidata": "Q1065206",
+                "category": "historic site, historic",
+                "address": "260 E Broadway"
+            },
+            "text": "New York City Hall",
+            "place_name": "New York City Hall, 260 E Broadway, New York, New York 10007, United States",
+            "center": [
+                -74.00588,
+                40.712658
+            ],
+            "geometry": {
+                "coordinates": [
+                    -74.00588,
+                    40.712658
+                ],
+                "type": "Point"
+            },
+            "context": [
+                {
+                    "id": "neighborhood.2103005",
+                    "text": "Tribeca"
+                },
+                {
+                    "id": "locality.12696928000137850",
+                    "wikidata": "Q11299",
+                    "text": "Manhattan"
+                },
+                {
+                    "id": "postcode.1858844876027420",
+                    "text": "10007"
+                },
+                {
+                    "id": "place.15278078705964500",
+                    "wikidata": "Q60",
+                    "text": "New York"
+                },
+                {
+                    "id": "region.14044236392855570",
+                    "short_code": "US-NY",
+                    "wikidata": "Q1384",
+                    "text": "New York"
+                },
+                {
+                    "id": "country.9053006287256050",
+                    "short_code": "us",
+                    "wikidata": "Q30",
+                    "text": "United States"
+                }
+            ]
+        },
+        {
+            "id": "poi.1408749311119",
+            "type": "Feature",
+            "place_type": [
+                "poi"
+            ],
+            "relevance": 1,
+            "properties": {
+                "landmark": true,
+                "wikidata": "Q7099558",
+                "category": "airport",
+                "address": "Union St",
+                "maki": "airport"
+            },
+            "text": "Orange County Airport (KMGJ)",
+            "place_name": "Orange County Airport (KMGJ), Union St, Montgomery, New York 12549, United States",
+            "matching_text": " New York",
+            "matching_place_name": "New York, Union St, Montgomery, New York 12549, United States",
+            "center": [
+                -74.2579,
+                41.511337
+            ],
+            "geometry": {
+                "coordinates": [
+                    -74.2579,
+                    41.511337
+                ],
+                "type": "Point"
+            },
+            "context": [
+                {
+                    "id": "neighborhood.272922",
+                    "text": "Kaisertown"
+                },
+                {
+                    "id": "postcode.2027213949899160",
+                    "text": "12549"
+                },
+                {
+                    "id": "place.8267249678028120",
+                    "wikidata": "Q624678",
+                    "text": "Montgomery"
+                },
+                {
+                    "id": "region.14044236392855570",
+                    "short_code": "US-NY",
+                    "wikidata": "Q1384",
+                    "text": "New York"
+                },
+                {
+                    "id": "country.9053006287256050",
+                    "short_code": "us",
+                    "wikidata": "Q30",
+                    "text": "United States"
+                }
+            ]
+        },
+        {
+            "id": "poi.429496730226",
+            "type": "Feature",
+            "place_type": [
+                "poi"
+            ],
+            "relevance": 1,
+            "properties": {
+                "landmark": true,
+                "wikidata": "Q1059456",
+                "category": "museum, tourism",
+                "address": "170 Central Park W"
+            },
+            "text": "New-York Historical Society Museum & Library",
+            "place_name": "New-York Historical Society Museum & Library, 170 Central Park W, New York, New York 10024, United States",
+            "center": [
+                -73.974045,
+                40.779404
+            ],
+            "geometry": {
+                "coordinates": [
+                    -73.974045,
+                    40.779404
+                ],
+                "type": "Point"
+            },
+            "context": [
+                {
+                    "id": "neighborhood.2100980",
+                    "text": "Upper West Side"
+                },
+                {
+                    "id": "locality.12696928000137850",
+                    "wikidata": "Q11299",
+                    "text": "Manhattan"
+                },
+                {
+                    "id": "postcode.17160650268603380",
+                    "text": "10024"
+                },
+                {
+                    "id": "place.15278078705964500",
+                    "wikidata": "Q60",
+                    "text": "New York"
+                },
+                {
+                    "id": "region.14044236392855570",
+                    "short_code": "US-NY",
+                    "wikidata": "Q1384",
+                    "text": "New York"
+                },
+                {
+                    "id": "country.9053006287256050",
+                    "short_code": "us",
+                    "wikidata": "Q30",
+                    "text": "United States"
+                }
+            ]
+        },
+        {
+            "id": "poi.1374389588364",
+            "type": "Feature",
+            "place_type": [
+                "poi"
+            ],
+            "relevance": 1,
+            "properties": {
+                "landmark": true,
+                "wikidata": "Q2306200",
+                "category": "science museum, science, museum, tourism",
+                "address": "47-01 111th St"
+            },
+            "text": "New York Hall of Science",
+            "place_name": "New York Hall of Science, 47-01 111th St, New York, New York 11368, United States",
+            "center": [
+                -73.85243,
+                40.747353
+            ],
+            "geometry": {
+                "coordinates": [
+                    -73.85243,
+                    40.747353
+                ],
+                "type": "Point"
+            },
+            "context": [
+                {
+                    "id": "neighborhood.33806",
+                    "text": "Flushing Meadows Corona Park"
+                },
+                {
+                    "id": "locality.6306827455006740",
+                    "wikidata": "Q18424",
+                    "text": "Queens"
+                },
+                {
+                    "id": "postcode.9980305791918220",
+                    "text": "11368"
+                },
+                {
+                    "id": "place.15278078705964500",
+                    "wikidata": "Q60",
+                    "text": "New York"
+                },
+                {
+                    "id": "region.14044236392855570",
+                    "short_code": "US-NY",
+                    "wikidata": "Q1384",
+                    "text": "New York"
+                },
+                {
+                    "id": "country.9053006287256050",
+                    "short_code": "us",
+                    "wikidata": "Q30",
+                    "text": "United States"
+                }
+            ]
+        },
+        {
+            "id": "poi.25769804073",
+            "type": "Feature",
+            "place_type": [
+                "poi"
+            ],
+            "relevance": 1,
+            "properties": {
+                "landmark": true,
+                "wikidata": "Q1503777",
+                "category": "history museum, history, historical, museum, tourism",
+                "address": "Boerum Pl"
+            },
+            "text": "New York Transit Museum",
+            "place_name": "New York Transit Museum, Boerum Pl, New York, New York 11201, United States",
+            "center": [
+                -73.98996,
+                40.690468
+            ],
+            "geometry": {
+                "coordinates": [
+                    -73.98996,
+                    40.690468
+                ],
+                "type": "Point"
+            },
+            "context": [
+                {
+                    "id": "neighborhood.297509",
+                    "text": "Downtown"
+                },
+                {
+                    "id": "locality.6335122455180360",
+                    "wikidata": "Q18419",
+                    "text": "Brooklyn"
+                },
+                {
+                    "id": "postcode.15332151625363130",
+                    "text": "11201"
+                },
+                {
+                    "id": "place.15278078705964500",
+                    "wikidata": "Q60",
+                    "text": "New York"
+                },
+                {
+                    "id": "region.14044236392855570",
+                    "short_code": "US-NY",
+                    "wikidata": "Q1384",
+                    "text": "New York"
+                },
+                {
+                    "id": "country.9053006287256050",
+                    "short_code": "us",
+                    "wikidata": "Q30",
+                    "text": "United States"
+                }
+            ]
+        },
+        {
+            "id": "poi.798863917499",
+            "type": "Feature",
+            "place_type": [
+                "poi"
+            ],
+            "relevance": 1,
+            "properties": {
+                "landmark": true,
+                "wikidata": "Q7014750",
+                "category": "government agency, office",
+                "address": "60 Centre St"
+            },
+            "text": "New York Supreme Court",
+            "place_name": "New York Supreme Court, 60 Centre St, New York, New York 10007, United States",
+            "center": [
+                -74.00162,
+                40.71417
+            ],
+            "geometry": {
+                "coordinates": [
+                    -74.00162,
+                    40.71417
+                ],
+                "type": "Point"
+            },
+            "context": [
+                {
+                    "id": "neighborhood.2103314",
+                    "text": "Lower East Side"
+                },
+                {
+                    "id": "locality.12696928000137850",
+                    "wikidata": "Q11299",
+                    "text": "Manhattan"
+                },
+                {
+                    "id": "postcode.1858844876027420",
+                    "text": "10007"
+                },
+                {
+                    "id": "place.15278078705964500",
+                    "wikidata": "Q60",
+                    "text": "New York"
+                },
+                {
+                    "id": "region.14044236392855570",
+                    "short_code": "US-NY",
+                    "wikidata": "Q1384",
+                    "text": "New York"
+                },
+                {
+                    "id": "country.9053006287256050",
+                    "short_code": "us",
+                    "wikidata": "Q30",
+                    "text": "United States"
+                }
+            ]
+        },
+        {
+            "id": "poi.1614907703671",
+            "type": "Feature",
+            "place_type": [
+                "poi"
+            ],
+            "relevance": 1,
+            "properties": {
+                "landmark": true,
+                "wikidata": "Q10860385",
+                "category": "airport",
+                "address": "2430 Fdr Drive Service Rd E",
+                "maki": "airport"
+            },
+            "text": "New York Skyports Seaplane Base",
+            "place_name": "New York Skyports Seaplane Base, 2430 Fdr Drive Service Rd E, New York, New York, United States",
+            "center": [
+                -73.97299,
+                40.73496
+            ],
+            "geometry": {
+                "coordinates": [
+                    -73.97299,
+                    40.73496
+                ],
+                "type": "Point"
+            },
+            "context": [
+                {
+                    "id": "neighborhood.2103062",
+                    "text": "Gramercy"
+                },
+                {
+                    "id": "locality.12696928000137850",
+                    "wikidata": "Q11299",
+                    "text": "Manhattan"
+                },
+                {
+                    "id": "place.15278078705964500",
+                    "wikidata": "Q60",
+                    "text": "New York"
+                },
+                {
+                    "id": "region.14044236392855570",
+                    "short_code": "US-NY",
+                    "wikidata": "Q1384",
+                    "text": "New York"
+                },
+                {
+                    "id": "country.9053006287256050",
+                    "short_code": "us",
+                    "wikidata": "Q30",
+                    "text": "United States"
+                }
+            ]
+        }
+    ],
+    "attribution": "NOTICE: © 2019 Mapbox and its suppliers. All rights reserved. Use of this data is subject to the Mapbox Terms of Service (https://www.mapbox.com/about/maps/). This response and the information it contains may not be retained. POI(s) provided by Foursquare."
+}
